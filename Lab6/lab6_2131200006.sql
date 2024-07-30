@@ -163,7 +163,7 @@ update clients set city = 'Ben Cat' where client_number = 'C104';
 -- 35. If On_Hand_Quantity greater than 5, then 10% discount. If On_Hand_Quantity greater than 10, then 15%
 -- discount. Othrwise, no discount.
 select *,
-case when quantity_on_hand > 5 then 10
-when quantity_on_hand > 10 then 15
+case when quantity_on_hand > 10 then 15
+when quantity_on_hand > 5 then 10
 else 0 end as discount
 from product;
