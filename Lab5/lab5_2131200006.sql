@@ -298,7 +298,3 @@ select salary
 from salesman 
 order by salary
 limit 2, 1;
-
-SELECT *, CASE WHEN salary<15000 THEN 'low' ELSE
-CASE WHEN salary<20000 THEN 'medium' ELSE 'high' END END 'note'
-FROM salesman;
