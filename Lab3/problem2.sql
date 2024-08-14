@@ -27,7 +27,7 @@ values ('123', 'Dinh', 'Ba', 'Tien', '1995-1-9', 'Nam', 30000, '731 Tran Hung Da
 
 create table department(
 	departmentID int primary key,
-    deparmentName varchar(10) not null,
+    departmentName varchar(10) not null,
     managerID varchar(3),
     dateOfEmployment date not null
 );
